@@ -1,9 +1,8 @@
 <html>
-<title>test</title>
+<title>文章搜索</title>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js'></script>
-<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
-<link rel="stylesheet" href="http://i1.mb5u.com/css/css.css" type="text/css" />
-
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+<link rel="stylesheet" href="static/main.css" type="text/css" />
 
 <body>
 <div id="search_div" class="search_div">
@@ -45,7 +44,6 @@
 
 </div>
 
-<link rel="stylesheet" href="css.css" type="text/css" />
 <div id="main">
     <div id="main_l">
 
@@ -169,18 +167,10 @@ function keyword_filter(all_data, keyword) {
     return filtered_list;
 }
 
-
-// function hidediv() {
-//     // $('#search_div').hide();
-//     $('#main').show();
-// }
-
 //  从url中取出标题
-function get_paper_title(url) {
-
-}
-
-
+// function get_paper_title(url) {
+//
+// }
 
 function showlist() {
     //  先隐藏搜索结果
@@ -197,9 +187,7 @@ function showlist() {
 
             var json_data = jQuery.parseJSON(data)
             // console.log(json_data);
-            for(i=1;i<100;i++){
-                json_data.push("111/222/333.md")
-            }
+
             keyword = $("#search").val();
             console.log(keyword)
 

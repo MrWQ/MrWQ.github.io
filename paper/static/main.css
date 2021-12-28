@@ -360,7 +360,7 @@ background: #fefefe;}
 .js_list a.mba{height:170px;overflow:hidden;}
 .js_list a.mba img{width:280px;height:140px;background:url(/img/jslist_bg.png) no-repeat 0 0;}
 .js_list a.mba span{display:block;height:140px;width:280px;position:relative;_margin-left:24px;}
-.yulan{display:block;float:left;width:19px;height:22px;overflow:hidden;text-indent:-9999px;background:url(/htm/titleico.gif) no-repeat 0 -65px;}
+.yulan{display:block;float:left;width:19px;height:22px;overflow:hidden;text-indent:-9999px;background:url(titleico.gif) no-repeat 0 -65px;}
 .js_list ul li a.yulan{margin:0 5px 0 -1px;}
 .wz_list ul li a.yulan{margin:7px 0 0 8px;_margin-left:4px;}
 .wz_list ul li a.ti10{text-indent:10px;}
