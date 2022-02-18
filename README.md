@@ -12,3 +12,8 @@
 ![image-20220111145838808](https://cdn.jsdelivr.net/gh/MrWQ/vulnerability-test-img/img/202201111458884.png)
 ### [VIP视频解析](https://mrwq.github.io/vip/) <br>
 ![image-20220111151052382](https://cdn.jsdelivr.net/gh/MrWQ/vulnerability-test-img/img/202201111510466.png)
+
+
+待加入：peiqiwiki，panwiki，hacking8
+
+待实现：综合搜索（先知、奇安信、seebug等文章库）
