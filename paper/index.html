@@ -191,8 +191,10 @@ function showlist() {
     httpRequest.onreadystatechange = function () {
         if (httpRequest.readyState == 4 && httpRequest.status == 200) {
             data = httpRequest.responseText;
-
-            var json_data = jQuery.parseJSON(data)
+            data = data.replace("<<<<<<< HEAD\n", "")
+            data = data.replace("\n>>>>>>> origin/master", "")
+            // var json_data = jQuery.parseJSON(data)
+            var json_data = JSON.parse(data)
             // console.log(json_data);
 
             keyword = $("#search").val();
